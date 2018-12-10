@@ -1,0 +1,137 @@
+body {
+    background-image: url("canvas.png");
+    background-attachment: fixed;
+    background-color: #dbeaef;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+}
+.page_content {
+    position: relative;
+    background-color: #f2f2f2;
+    width: 60%;
+    box-shadow: 0px 0px 5px 2px grey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    z-index: 0;
+}
+.logo {
+    position: absolute;
+    top: -23px;
+    left: 10px;
+    font-family: "Oleo Script";
+    font-size: 2em;
+}
+.top_bar {
+    position: relative;
+    background-color: #356080;
+    width: 100%;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 5px 2px black;
+    z-index: 1;
+}
+.top_menu {
+    position: relative;
+    padding-left: 70px;
+}
+.top_menu table tr td {
+    padding-right: 30px;
+    font-size: 150%;
+    color: white;
+    font-family: sans-serif;
+}
+.top_menu table tr td p {
+    padding: 2px;
+    white-space: nowrap;
+}
+.top_menu table tr td p a {
+    text-decoration: none;
+    color: white;
+}
+.top_menu table tr td p a:hover {
+    text-shadow: 0px 0px 2px white;
+    text-decoration: none;
+    color: white;
+}
+.top_menu table tr td p a:active {
+    text-shadow: 0px 0px 5px white;
+    text-decoration: none;
+    color: white;
+}
+.form{
+    float: right;
+    padding-right: 50px;
+}
+.table{
+    float: right;
+}
+.logout {
+    position: relative;
+    float: right;
+    background-color: #356080; 
+    border: 3px solid white;
+    height: 40px;
+    width: 100px;
+    font-size: 80%;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.3);
+}
+.logout:hover {
+    background-color: #4580a0; 
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.3);
+}
+.button_container {
+    margin-top: 6%;
+    width: 60%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    background-image: url("circuit.png");
+    border-radius: 10px;
+}
+.button {
+    background-color: inherit;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    padding: 0px;
+    margin: 0px;
+    box-shadow: 0px 0px 5px 2px gray;
+}
+.button:hover {
+    border: 2px solid black;
+    box-shadow: 0px 0px 5px 2px black;
+}
+.no_select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.button_text {
+    font-family: "Consolas", "Source Code Pro", monospace;
+    vertical-align: middle;
+    text-shadow: -3px 0 #f2f2f2, 0 3px #f2f2f2, 3px 0 #f2f2f2, 0 -3px #f2f2f2;
+    text-align: center;
+    font-size: 1000%;
+    font-size: 10vw;
+    margin: auto;
+    cursor: pointer;
+}
+h1 {
+    font-family: sans-serif;
+}

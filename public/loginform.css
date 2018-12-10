@@ -1,0 +1,38 @@
+.login {
+    padding: 15px;
+    padding-left: 30px;
+    display: inline-block;
+    float: left;
+}
+.login hr {
+    opacity: 0.4;
+}
+.login h1 {
+    font-family: sans-serif;
+}
+.signup {
+    float: none;
+    padding-left: 15px;
+    padding-right: 30px;
+}
+.formlabel {
+    position: relative;
+    top: 7px;
+    font-size: 0.8em;
+}
+.submit {
+    margin-top: 20px;
+    position: relative;
+    background-color: #356080; 
+    border: 3px solid white;
+    height: 50px;
+    width: 90px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.3);
+}
+.submit:hover {
+    background-color: #4580a0; 
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+}
